@@ -59,11 +59,11 @@
         <div class="row">
             <div class="col-12 col-md-6" id="bbutton">
                 <a href="bloodboss.php" class="btn btn-secondary text-nowrap btn-lg btn-block mt-6 mt-md-4"
-                    role="button"><img src="bloodborne title.png" width=100% height=100% /></a>
+                    role="button"><img src="images/bloodborne title.png" width=100% height=100% /></a>
             </div>
             <div class="col-12 col-md-6" id="dbutton">
                 <a href="soulsboss.php" class="btn btn-secondary text-nowrap btn-lg btn-block mt-6 mt-md-4"
-                    role="button"><img src="dark souls title.png" width=100% height=100% /></a>
+                    role="button"><img src="images/dark souls title.png" width=100% height=100% /></a>
             </div>
         </div>
     </div>
