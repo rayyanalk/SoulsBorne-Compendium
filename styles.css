@@ -1,0 +1,276 @@
+
+        body, html {
+            background-color: #444342;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+        }
+
+        #sign{
+            background-image: url("darksign.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #moon{
+            background-image: url("moon.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #challenge{
+            background-image: url("soulsborne.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #home{
+            color: white;
+        }
+
+        .nav-link,
+        .navbar-brand {
+            color: orangered;
+        }
+
+        #blood{
+            color: #003CBE;
+        }
+        #bosschallenge{
+            background-image: url("bosseschallenge.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #geardisplay{
+            background-image: url("armor.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #title {
+            font-family: 'EB Garamond', serif;
+            color: rgb(255, 255, 255);
+        }
+        #titleH{
+            font-family: 'EB Garamond', serif;
+            color: rgb(255, 255, 255);
+            text-align: left;
+            left: 20px;
+        }
+        #query{
+            font-family: 'EB Garamond', serif;
+        }
+
+        .soulstitle{
+            color: orangered;
+            font-family: 'EB Garamond', serif;
+            font-size: 60px;
+        }
+
+        .list-group-item{
+            opacity: 50%;
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bbquote {
+            color: #1100ff;
+            text-align: center;
+            padding-top: 15px;
+            font-family: 'MonteCarlo', cursive;
+            font-size: 30px;
+        }
+
+        #blist{
+            text-align: center;
+        }
+
+        #dsquote {
+            color: orangered;
+            text-align: center;
+            padding-top: 15px;
+            font-family: 'MonteCarlo', cursive;
+            font-size: 30px;
+        }
+        #kosbox{
+            border: 1px solid white;
+            color: white;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        #kosquote{
+            font-family: 'MonteCarlo', cursive;
+            font-size: 40px;  
+        }
+        #kosinfo{
+            font-family: 'EB Garamond', serif;
+            font-size: 22px;
+        }
+        #kosstats{
+            color: red;
+            font-family: 'EB Garamond', serif;
+            font-size: 20px;
+        }
+        #bossedit{
+            background-image: url("bosses.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .form-check-label{
+            font-family: 'EB Garamond', serif;
+            font-size: 21px;
+        }
+        .navbar-toggler-icon{
+            color: orangered;
+        }
+        .custom-toggler.navbar-toggler {
+            border-color: orangered;
+        }
+        .navbar-toggler-iconB{
+            color: #003CBE;
+        }
+        .custom-togglerB.navbar-togglerB {
+            border-color:  #003CBE;
+        }
+        .navbar-toggler-iconH{
+            color: white;
+        }
+        .custom-toggler.navbar-togglerH {
+            border-color:  white;
+        }
+        .loader-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #444342;
+            background-image: url("darksign.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .loader-wrapper-bb {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #444342;
+            background-image: url("moon.jpg");
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .loader {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            border: 10px solid #Fff;
+            animation: loader 2s infinite ease;
+          }
+          .loader-inner {
+            vertical-align: top;
+            display: inline-block;
+            width: 100%;
+            background-color: #fff;
+            animation: loader-inner 2s infinite ease-in;
+          }
+          @keyframes loader {
+            0% { transform: rotate(0deg);}
+            25% { transform: rotate(180deg);}
+            50% { transform: rotate(180deg);}
+            75% { transform: rotate(360deg);}
+            100% { transform: rotate(360deg);}
+          }
+          @keyframes loader-inner {
+            0% { height: 0%;}
+            25% { height: 0%;}
+            50% { height: 100%;}
+            75% { height: 100%;}
+            100% { height: 0%;}
+          }
+          #loadboy {
+            margin: 0;
+            padding: 0;
+            width:100vw;
+            height: 100vh;
+            background-color: #eee;
+          }
+          
+        @media only screen and (max-width: 991px){
+            #sign{
+                background-image: url("darksign.jpg");
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #moon{
+                background-image: url("moon.jpg");
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #bossedit{
+                background-image: url("bosses.jpg");
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #query{
+                color: rgb(255, 6, 6);
+            }
+            #title{
+                text-align: center;
+                color: rgb(5, 21, 238);
+            }
+            #titleH{
+                text-align: center;
+            }
+            
+        }
+            @media only screen and (max-width: 767px){
+            #bbquote{
+                display: none;  /*on hover effect with JS will display quote over button*/
+            }
+            #dsquote{
+                display: none; /*on hover effect with JS will display quote over button*/
+            }
+            #bbutton{
+                padding-bottom: 10px;
+            }
+        }
+        
